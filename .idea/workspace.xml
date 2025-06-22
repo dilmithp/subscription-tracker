@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ef0bac08-b058-4c1d-acdf-1916ffd6d3e4" name="Changes" comment="addMongooseConnection">
-      <change afterPath="$PROJECT_DIR$/model/subscription.model.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/user.model.js" afterDir="false" />
+    <list default="true" id="ef0bac08-b058-4c1d-acdf-1916ffd6d3e4" name="Changes" comment="user and sub model creation">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/middlewares/error.middleware.js" beforeDir="false" afterPath="$PROJECT_DIR$/middlewares/error.middleware.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +36,7 @@
   }
 }</component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/middlewares/error.middleware.js" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/routes/auth.routes.js" root0="SKIP_INSPECTION" />
   </component>
   <component name="ProblemsViewState">
@@ -109,7 +109,7 @@
       <workItem from="1750566581170" duration="153000" />
       <workItem from="1750566742265" duration="222000" />
       <workItem from="1750566973360" duration="4616000" />
-      <workItem from="1750574894333" duration="4163000" />
+      <workItem from="1750574894333" duration="7135000" />
     </task>
     <task id="LOCAL-00001" summary="eslintConfig">
       <option name="closed" value="true" />
@@ -175,7 +175,15 @@
       <option name="project" value="LOCAL" />
       <updated>1750571625639</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="user and sub model creation">
+      <option name="closed" value="true" />
+      <created>1750580127156</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1750580127156</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -199,6 +207,7 @@
     <MESSAGE value="envConfig-Local" />
     <MESSAGE value="UserRoute" />
     <MESSAGE value="addMongooseConnection" />
-    <option name="LAST_COMMIT_MESSAGE" value="addMongooseConnection" />
+    <MESSAGE value="user and sub model creation" />
+    <option name="LAST_COMMIT_MESSAGE" value="user and sub model creation" />
   </component>
 </project>
