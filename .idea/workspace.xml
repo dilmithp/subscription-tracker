@@ -4,8 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ef0bac08-b058-4c1d-acdf-1916ffd6d3e4" name="Changes" comment="envConfig-Local">
+    <list default="true" id="ef0bac08-b058-4c1d-acdf-1916ffd6d3e4" name="Changes" comment="UserRoute">
+      <change afterPath="$PROJECT_DIR$/database/mongoDB.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/routes/subscription.routes.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/env.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/env.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/user.routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/user.routes.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,7 +56,6 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "js.linters.configure.manually.selectedeslint": "true",
     "last_opened_file_path": "/Users/dilmithpathirana/WebstormProjects/subscription-tracker",
@@ -61,11 +66,24 @@
     "node.js.selected.package.standard": "",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "npm.dev.executor": "Run",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "ts.external.directory.path": "/Applications/WebStorm.app/Contents/plugins/javascript-plugin/jsLanguageServicesImpl/external",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="dev" type="js.build_tools.npm" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -82,7 +100,10 @@
       <updated>1750470443992</updated>
       <workItem from="1750470445080" duration="1204000" />
       <workItem from="1750471667154" duration="6414000" />
-      <workItem from="1750558793526" duration="178000" />
+      <workItem from="1750558793526" duration="1297000" />
+      <workItem from="1750566581170" duration="153000" />
+      <workItem from="1750566742265" duration="222000" />
+      <workItem from="1750566973360" duration="3296000" />
     </task>
     <task id="LOCAL-00001" summary="eslintConfig">
       <option name="closed" value="true" />
@@ -124,7 +145,15 @@
       <option name="project" value="LOCAL" />
       <updated>1750558020345</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="UserRoute">
+      <option name="closed" value="true" />
+      <created>1750559266508</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1750559266508</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -146,6 +175,7 @@
     <MESSAGE value="webstormConfig" />
     <MESSAGE value="envConfig" />
     <MESSAGE value="envConfig-Local" />
-    <option name="LAST_COMMIT_MESSAGE" value="envConfig-Local" />
+    <MESSAGE value="UserRoute" />
+    <option name="LAST_COMMIT_MESSAGE" value="UserRoute" />
   </component>
 </project>
