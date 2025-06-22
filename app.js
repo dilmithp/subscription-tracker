@@ -8,7 +8,7 @@ app.get("/",(req,res)=>{
     res.send("welcome to subscription demo service")
 });
 
-app.listen(3000,() => {
+app.listen(PORT,() => {
     console.log(`Sub Tracker running on http://localhost:${PORT}`);
 });
 
