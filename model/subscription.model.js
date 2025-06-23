@@ -25,13 +25,13 @@ const subscriptionSchema = new mongoose.Schema({
     },
     category: {
         type: String,
-        enum: ["food", "travel", "digital", "health", "basic","loan"],
+        enum: ["food", "travel", "digital", "health", "basic","loan","Entertainment"],
         default: "basic",
         required: [true, "Frequency is required"],
     },
     paymentMethod: {
         type: String,
-        enum: ["card", "cash", "bank_transfer"],
+        enum: ["Credit Card", "cash", "bank_transfer"],
         default: "card",
         required: [true, "Payment method is required"],
         trim: true,
@@ -77,9 +77,13 @@ subscriptionSchema.pre("save",function (next) {
             weekly: 7,
             daily: 1
         };
+        const period = renewalPeriods[this.frequency];
+        if (period) {
+            this.renewDate = new Date(this.startDate.getTime() + period * 24 * 60 * 60 * 1000);
+        } else {
+            return next(new Error("Invalid frequency for renewal date calculation"));
+        }
 
-        this.renewDate = new Date(this.startDate);
-        this.renewDate.setDate(this.renewDate.getDate() + renewalPeriods[this.frequency]);
     }
 
     //auto update the status based on renewal date
