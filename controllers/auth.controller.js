@@ -49,14 +49,14 @@ export const signUp = async (req, res, next) => {
         const hashedPassword = await bcrypt.hash(password, salt);
 
         // Create user
-        const [newUser] = await User.create(
+        const [newUsers] = await User.create(
             [{ name, email, password: hashedPassword }],
             { session }
         );
 
         // Generate JWT
         const token = jwt.sign(
-            { userId: newUser._id },
+            { userId: newUsers._id },
             JWT_SECRET,
             { expiresIn: JWT_EXPIRES_IN }
         );
@@ -69,7 +69,7 @@ export const signUp = async (req, res, next) => {
             message: "User created successfully",
             data: {
                 token,
-                user: newUser,
+                user: newUsers,
             }
         });
 

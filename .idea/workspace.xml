@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ef0bac08-b058-4c1d-acdf-1916ffd6d3e4" name="Changes" comment="authentication signup controller">
+    <list default="true" id="ef0bac08-b058-4c1d-acdf-1916ffd6d3e4" name="Changes" comment="http req error fixed">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controllers/auth.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/auth.controller.js" afterDir="false" />
     </list>
@@ -111,7 +111,8 @@
       <workItem from="1750566973360" duration="4616000" />
       <workItem from="1750574894333" duration="13504000" />
       <workItem from="1750603730217" duration="4000" />
-      <workItem from="1750604377083" duration="2853000" />
+      <workItem from="1750604377083" duration="3640000" />
+      <workItem from="1750639648072" duration="1209000" />
     </task>
     <task id="LOCAL-00001" summary="eslintConfig">
       <option name="closed" value="true" />
@@ -201,7 +202,15 @@
       <option name="project" value="LOCAL" />
       <updated>1750597739204</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="http req error fixed">
+      <option name="closed" value="true" />
+      <created>1750607517499</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1750607517499</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -228,6 +237,7 @@
     <MESSAGE value="user and sub model creation" />
     <MESSAGE value="implement middleware(error)" />
     <MESSAGE value="authentication signup controller" />
-    <option name="LAST_COMMIT_MESSAGE" value="authentication signup controller" />
+    <MESSAGE value="http req error fixed" />
+    <option name="LAST_COMMIT_MESSAGE" value="http req error fixed" />
   </component>
 </project>
