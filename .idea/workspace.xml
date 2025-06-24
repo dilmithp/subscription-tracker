@@ -4,15 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ef0bac08-b058-4c1d-acdf-1916ffd6d3e4" name="Changes" comment="IDECOnfig">
-      <change afterPath="$PROJECT_DIR$/config/upstash.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controllers/workflow.controller.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routes/workflow.routes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/project.xml" afterDir="false" />
+    <list default="true" id="ef0bac08-b058-4c1d-acdf-1916ffd6d3e4" name="Changes" comment="upstash workflowIntegrated">
+      <change afterPath="$PROJECT_DIR$/config/nodemailer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/email-template.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/send-email.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/env.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/env.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/subscription.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/subscription.controller.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/workflow.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/workflow.controller.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
@@ -127,7 +125,7 @@
       <workItem from="1750737259752" duration="358000" />
       <workItem from="1750738542804" duration="3062000" />
       <workItem from="1750765072702" duration="790000" />
-      <workItem from="1750769677261" duration="3806000" />
+      <workItem from="1750769677261" duration="9822000" />
     </task>
     <task id="LOCAL-00001" summary="eslintConfig">
       <option name="closed" value="true" />
@@ -249,7 +247,15 @@
       <option name="project" value="LOCAL" />
       <updated>1750674637463</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="upstash workflowIntegrated">
+      <option name="closed" value="true" />
+      <created>1750777104567</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1750777104567</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -280,6 +286,7 @@
     <MESSAGE value="dbInit" />
     <MESSAGE value="subscriptionModel Created" />
     <MESSAGE value="IDECOnfig" />
-    <option name="LAST_COMMIT_MESSAGE" value="IDECOnfig" />
+    <MESSAGE value="upstash workflowIntegrated" />
+    <option name="LAST_COMMIT_MESSAGE" value="upstash workflowIntegrated" />
   </component>
 </project>
